@@ -3,7 +3,13 @@
 This is a simple tool for bootstrapping EC2 instances from a
 `user-script` in a private S3 bucket.
 
-## Usage
+### Compile from source
+
+```bash
+$ go get -u github.com/grosskur/s3-user-script
+```
+
+### Usage
 
 1. Create an S3 bucket `my-user-scripts`.
 
