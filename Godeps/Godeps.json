@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/grosskur/s3-user-script",
+	"GoVersion": "go1.2",
+	"Deps": [
+		{
+			"ImportPath": "github.com/jessevdk/go-flags",
+			"Comment": "v1-128-g8f06291",
+			"Rev": "8f062918441aea58aa3d0a4ebeba744f323535d5"
+		},
+		{
+			"ImportPath": "github.com/smartystreets/go-aws-auth",
+			"Rev": "3329f6d9fde205d78fa25ba97602849bb8476d89"
+		}
+	]
+}
