@@ -115,7 +115,7 @@ func main() {
 	if len(opts.Verbose) > 0 {
 		log.Println("executing: ./user-script")
 	}
-	err = syscall.Exec("./user-script", []string{"./user-script"}, []string{})
+	err = syscall.Exec("./user-script", []string{"./user-script"}, os.Environ())
 	if err != nil {
 		log.Fatal(err)
 	}
